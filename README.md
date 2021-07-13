@@ -1,12 +1,17 @@
-# Fantasy Scoring
+# web-calculator
+When submitting your assignment, include answers to the following.
 
-## Instructions
-In the initial commit to this project, you have been provided with a basic project setup as well as a set of tests which currently fail. Your task is to create a `calculateScore` function which will properly calculate the fantasy score for all known positions, returning 0 when the position is not one of the ones laid out below.
+## Identify the component of this assignment that you did the best on, and why.
+I think i did best on my switch statement. I had to redo it a few times but eventually got it to work. 
 
-Working in a branch called `answer`, implement your function to get your tests to pass. Once you are done, push your branch up to GitHub, create a pull request, and request review from the instructor.
+## Describe in plain english what problem this assignment was posing, and what your solution was to it.
+The problem this assignment posed was calculate the scoring stats for different players in a fantasy football games. Depending on the players position, their stats differed and needed to calculate different stats. 
 
-## Scoring Rules
-* **QB:** 1 point for every 25 yards passing, 6 points for every passing touchdown, -3 points for every interception, 1 point for every 10 yards rushing, 6 points for every rushing touchdown, -3 points for every rushing fumble
-* **RB:** 1 point for every 10 yards rushing, 6 points for every rushing touchdown, -3 points for every rushing fumble, 1 point for every reception, 1 point for every 10 yards receiving, 6 points for every receiving touchdown, -3 points for every receiving fumble, 1 point for every 15 kick return yards, 6 points for every kick return touchdown, -3 points for every kick return fumble, 1 point for every 15 punt return yards, 6 points for every punt return touchdown, -3 points for every punt return fumble
-* **WR:** 1 point for every 10 yards rushing, 6 points for every rushing touchdown, -3 points for every rushing fumble, 1 point for every reception, 1 point for every 10 yards receiving, 6 points for every receiving touchdown, -3 points for every receiving fumble, 1 point for every 15 kick return yards, 6 points for every kick return touchdown, -3 points for every kick return fumble, 1 point for every 15 punt return yards, 6 points for every punt return touchdown, -3 points for every punt return fumble
-* **TE:** 1 point for every reception, 1 point for every 10 yards receiving, 6 points for every receiving touchdown, -3 points for every receiving fumble
+## What was your approach or process?
+My approach was to read the readme file many times because I didn’t understand the jargon all that much. Initially I wrote a different type of switch statement and I thought I needed to add more functions and declare variables. So my tests were not able to run. I read the readme again and then I understood all I had to was put the objects inside the the return statement and it was easier to understand. 
+
+## What were your challenges?
+My biggest problems were creating the switch statement and creating the objects. I had to understand how objects worked inside a function. 
+
+## What resources did you use?
+I used the powerpoint slides from this week, w3schools and MDN mozilla website. 
